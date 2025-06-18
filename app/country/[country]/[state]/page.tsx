@@ -3,8 +3,10 @@ export default async function CountryPage({
 }: {
   params: Promise<{ state: string;  country: string }>;//add second params
 }) {
-  const { state } = await params;
-  const { country } = await params;//take dynamic country name from user
+  // const { state } = await params;
+  // const { country } = await params;//take dynamic country name from user
+  const { state,country } = await params;
+
 
   return (
     <>
