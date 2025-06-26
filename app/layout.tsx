@@ -1,3 +1,4 @@
+import HeaderComponent from "@/components/HeaderComponent";
 
 
 export default function RootLayout({
@@ -8,6 +9,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <HeaderComponent />
+        <hr />
         {children}
       </body>
     </html>
